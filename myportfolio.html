@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri Ganesh Borate - Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #1a73e8;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 50px 20px 20px 20px;
+            background-color: #1a73e8;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        /* Sections */
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #1a73e8;
+            border-bottom: 3px solid #1a73e8;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Skills */
+        .skills, .languages, .certifications {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .skills div, .languages div, .certifications div {
+            background-color: #e1ecff;
+            margin: 5px;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        /* Projects */
+        .project-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a73e8;
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .skills div, .languages div, .certifications div {
+                flex: 1 1 45%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#languages">Languages</a>
+</nav>
+
+<!-- Header -->
+<header>
+    <h1>Gauri Ganesh Borate</h1>
+    <p>Phaltan, Maharashtra, India | 9284472901 | gauriborate321@gmail.com</p>
+</header>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Engineering student at Phaltan Education Society’s College of Engineering (expected graduation 2028). I have hands-on experience in web and application development, project management, and creating practical solutions for businesses and organizations. I have strong leadership, communication, and teamwork skills.</p>
+</section>
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <p><strong>Bachelor of Engineering – Computer Engineering</strong><br>
+    Phaltan Education Society’s College of Engineering, Phaltan (Expected 2028)</p>
+
+    <p><strong>Diploma – Computer Engineering</strong><br>
+    Karmveer Bhaurao Patil Polytechnic, Satara (2025)</p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Android Development</div>
+        <div>Frontend & Backend Development</div>
+        <div>Application Development</div>
+        <div>Visual Studio Code</div>
+        <div>MySQL</div>
+        <div>Leadership</div>
+        <div>Team Leading</div>
+        <div>Communication</div>
+        <div>Problem Solving</div>
+        <div>Time Management</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Flower Shop Management System (Diploma Final Year Project)</h3>
+        <ul>
+            <li>Web-based application for managing flower shop operations (product listing, sales tracking, and order management)</li>
+            <li>Technologies used: HTML, CSS, JavaScript, PHP</li>
+            <li>Enhanced usability and design for a better user experience</li>
+        </ul>
+    </div>
+
+    <div class="project-card">
+        <h3>Stock Management System – Radio Astronomy Centre, Ooty (Internship Project)</h3>
+        <ul>
+            <li>Developed a website to manage stock inventory for a central government organization</li>
+            <li>Worked with real-world datasets and implemented secure data handling</li>
+            <li>Certified by Radio Astronomy Centre, Ooty</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Certifications -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications">
+        <div>Internship Certificate – Radio Astronomy Centre, Ooty</div>
+        <div>Internship Certificate – Indradeep Infotech Pvt. Ltd</div>
+    </div>
+</section>
+
+<!-- Languages -->
+<section id="languages">
+    <h2>Languages</h2>
+    <div class="languages">
+        <div>English</div>
+        <div>Hindi</div>
+        <div>Marathi</div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 Gauri Ganesh Borate
+</footer>
+
+</body>
+</html>
